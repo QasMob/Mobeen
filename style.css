@@ -13,6 +13,7 @@ p{
     color: #333;
     max-width: 300px;
     line-height: 1.5;
+    
 
 }
 
@@ -34,8 +35,15 @@ p{
 }
 
 .title {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.container__p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jokeAPI-background {
@@ -44,7 +52,7 @@ p{
 
 
 .container   {
-    background-color: white;
+    background-color: 	#fffdd0;
     padding: 4rem 10rem;
     border-radius: 20px;
     text-align: center;
@@ -57,8 +65,26 @@ p{
     padding: 15px 25px 15px 25px;
     border: none;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 50px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
+.btn {
+    background-color: rgba(66, 133, 244, 255);
+    background-color: rgba(218, 248, 255, 255);
+    box-shadow: ;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: none; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
